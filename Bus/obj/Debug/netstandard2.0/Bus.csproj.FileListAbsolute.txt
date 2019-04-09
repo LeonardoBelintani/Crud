@@ -1,0 +1,5 @@
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\bin\Debug\netstandard2.0\Bus.deps.json
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\bin\Debug\netstandard2.0\Bus.dll
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\obj\Debug\netstandard2.0\Bus.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\obj\Debug\netstandard2.0\Bus.AssemblyInfoInputs.cache
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\obj\Debug\netstandard2.0\Bus.AssemblyInfo.cs
