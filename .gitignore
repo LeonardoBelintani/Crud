@@ -3,3 +3,9 @@
 ################################################################################
 
 /.vs/Crud/DesignTimeBuild
+/.vs
+/Api/obj
+/Core/obj
+/Infra/obj
+/Service/obj
+/Test/obj
