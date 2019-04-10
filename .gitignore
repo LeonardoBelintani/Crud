@@ -9,3 +9,9 @@
 /Infra/obj
 /Service/obj
 /Test/obj
+/Service/bin
+/Bus/bin
+/Bus/obj
+/Api/bin
+/Infra/bin
+/Test/bin
