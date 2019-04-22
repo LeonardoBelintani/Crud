@@ -9,7 +9,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Injections\" />
     <Folder Include="Handlers\" />
     <Folder Include="Commands\" />
     <Folder Include="Contracts\" />
