@@ -10,8 +10,8 @@ namespace Service.Contracts
     public interface IUserService
     {
         IQueryable<User> All();
-        Result<bool> Save(User user, string author);
+        Result<User> Save(User user, string author);
         Result<bool> Delete(int id, string author);
-        Result<bool> Login(User user);
+        Result<User> Login(string login, string password);
     }
 }

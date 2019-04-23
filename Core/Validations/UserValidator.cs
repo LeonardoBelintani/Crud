@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using Core.Contracts;
 using Core.Entities;
@@ -86,6 +87,11 @@ namespace Core.Validations
             Result = Validate(Model);
 
             return Result.IsValid;
+        }
+
+        public string GetErrors()
+        {
+            return Result.Errors.ToList().Select(x => x.ErrorMessage).Aggregate((x, y) => $"{x}, {y}");
         }
     }
 }

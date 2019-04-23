@@ -22,7 +22,7 @@ namespace Core.Resources {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class UserResource {
+    public class UserResource {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Core.Resources {
         ///   Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Core.Resources.UserResource", typeof(UserResource).Assembly);
@@ -51,7 +51,7 @@ namespace Core.Resources {
         ///   pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Core.Resources {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Informe a data de criação do usuário.
         /// </summary>
-        internal static string CreatedAtValidate {
+        public static string CreatedAtValidate {
             get {
                 return ResourceManager.GetString("CreatedAtValidate", resourceCulture);
             }
@@ -72,7 +72,7 @@ namespace Core.Resources {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Email do usuário deve ser válido e conter entre 6 e 150 caracteres.
         /// </summary>
-        internal static string EmailValidate {
+        public static string EmailValidate {
             get {
                 return ResourceManager.GetString("EmailValidate", resourceCulture);
             }
@@ -81,7 +81,7 @@ namespace Core.Resources {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a O código do usuário não pode ser vazio ou zero.
         /// </summary>
-        internal static string IdValidate {
+        public static string IdValidate {
             get {
                 return ResourceManager.GetString("IdValidate", resourceCulture);
             }
@@ -90,16 +90,34 @@ namespace Core.Resources {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Login deve conter entre 6 e 20 caracteres.
         /// </summary>
-        internal static string LoginValidate {
+        public static string LoginValidate {
             get {
                 return ResourceManager.GetString("LoginValidate", resourceCulture);
             }
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Usuário não encontrado.
+        /// </summary>
+        public static string MsgUserLoginFail {
+            get {
+                return ResourceManager.GetString("MsgUserLoginFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Usuário encontrado com sucesso!.
+        /// </summary>
+        public static string MsgUserLoginSuccess {
+            get {
+                return ResourceManager.GetString("MsgUserLoginSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Nome do usuário deve conter entre 3 e 50 caracteres.
         /// </summary>
-        internal static string NameValidate {
+        public static string NameValidate {
             get {
                 return ResourceManager.GetString("NameValidate", resourceCulture);
             }
@@ -108,7 +126,7 @@ namespace Core.Resources {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Senha deve conter entre 6 e 20 caracteres.
         /// </summary>
-        internal static string PasswordValidate {
+        public static string PasswordValidate {
             get {
                 return ResourceManager.GetString("PasswordValidate", resourceCulture);
             }
@@ -117,7 +135,7 @@ namespace Core.Resources {
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a Informe a data de alteração do usuário.
         /// </summary>
-        internal static string UpdatedAtValidate {
+        public static string UpdatedAtValidate {
             get {
                 return ResourceManager.GetString("UpdatedAtValidate", resourceCulture);
             }

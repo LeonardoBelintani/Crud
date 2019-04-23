@@ -117,31 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="CreatedAtValidate" xml:space="preserve">
-    <value>Informe a data de criação do usuário</value>
+  <data name="DeleteSuccess" xml:space="preserve">
+    <value>Removido com Sucesso</value>
   </data>
-  <data name="EmailValidate" xml:space="preserve">
-    <value>Email do usuário deve ser válido e conter entre 6 e 150 caracteres</value>
+  <data name="SaveSuccess" xml:space="preserve">
+    <value>Salvo com Sucesso</value>
   </data>
-  <data name="IdValidate" xml:space="preserve">
-    <value>O código do usuário não pode ser vazio ou zero</value>
-  </data>
-  <data name="LoginValidate" xml:space="preserve">
-    <value>Login deve conter entre 6 e 20 caracteres</value>
-  </data>
-  <data name="MsgUserLoginFail" xml:space="preserve">
-    <value>Usuário não encontrado</value>
-  </data>
-  <data name="MsgUserLoginSuccess" xml:space="preserve">
-    <value>Usuário encontrado com sucesso!</value>
-  </data>
-  <data name="NameValidate" xml:space="preserve">
-    <value>Nome do usuário deve conter entre 3 e 50 caracteres</value>
-  </data>
-  <data name="PasswordValidate" xml:space="preserve">
-    <value>Senha deve conter entre 6 e 20 caracteres</value>
-  </data>
-  <data name="UpdatedAtValidate" xml:space="preserve">
-    <value>Informe a data de alteração do usuário</value>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>Usuário Não Encontrado</value>
   </data>
 </root>
