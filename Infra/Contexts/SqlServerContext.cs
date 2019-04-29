@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Infra.Contexts
 {
@@ -29,6 +30,19 @@ namespace Infra.Contexts
             return rowsAffected > 0;
         }
         /// <summary>
+        /// Insert new record in background on database
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        public async Task<bool> InsertRecordAsync<T>(T entity) where T : class
+        {
+            Add(entity);
+            var rowsAffcted = await SaveChangesAsync();
+
+            return rowsAffcted > 0;
+        }
+        /// <summary>
         /// Insert many records in database
         /// </summary>
         /// <typeparam name="T"></typeparam>
@@ -40,6 +54,14 @@ namespace Infra.Contexts
             var rowsAffected = SaveChanges();
 
             return rowsAffected > 0;
+        }
+
+        public async Task<bool> InsertRecordsAsync<T>(T entity) where T : class
+        {
+            AddRange(entity);
+            var rowsAffcted = await SaveChangesAsync();
+
+            return rowsAffcted > 0;
         }
         /// <summary>
         /// Update a record
@@ -54,6 +76,14 @@ namespace Infra.Contexts
 
             return rowsAffected > 0;
         }
+
+        public async Task<bool> UpdateRecordAsync<T>(T entity) where T : class
+        {
+            Update(entity);
+            var rowsAffcted = await SaveChangesAsync();
+
+            return rowsAffcted > 0;
+        }
         /// <summary>
         /// Update a lot of records
         /// </summary>
@@ -66,6 +96,14 @@ namespace Infra.Contexts
             var rowsAffected = SaveChanges();
 
             return rowsAffected > 0;
+        }
+
+        public async Task<bool> UpdateRecordAsyncs<T>(T entity) where T : class
+        {
+            UpdateRange(entity);
+            var rowsAffcted = await SaveChangesAsync();
+
+            return rowsAffcted > 0;
         }
         /// <summary>
         /// Remove record
@@ -80,6 +118,14 @@ namespace Infra.Contexts
 
             return rowsAffected > 0;
         }
+
+        public async Task<bool> RemoveRecordAsync<T>(T entity) where T : class
+        {
+            Remove(entity);
+            var rowsAffcted = await SaveChangesAsync();
+
+            return rowsAffcted > 0;
+        }
         /// <summary>
         /// Remove a lot of records
         /// </summary>
@@ -92,6 +138,14 @@ namespace Infra.Contexts
             var rowsAffected = SaveChanges();
 
             return rowsAffected > 0;
+        }
+
+        public async Task<bool> RemoveRecordsAsync<T>(T entity) where T : class
+        {
+            RemoveRange(entity);
+            var rowsAffcted = await SaveChangesAsync();
+
+            return rowsAffcted > 0;
         }
         /// <summary>
         /// Start a new transaction in basic level

@@ -82,14 +82,14 @@ namespace Core.Validations
         }
 
 
-        public bool Validate()
+        public bool Execute()
         {
             Result = Validate(Model);
 
             return Result.IsValid;
         }
 
-        public string GetErrors()
+        public string GetFormattedErrors()
         {
             return Result.Errors.ToList().Select(x => x.ErrorMessage).Aggregate((x, y) => $"{x}, {y}");
         }

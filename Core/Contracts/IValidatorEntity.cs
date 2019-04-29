@@ -9,6 +9,7 @@ namespace Core.Contracts
     {
         ValidationResult Result { get; set; }
 
-        bool Validate();
+        bool Execute();
+        string GetFormattedErrors();
     }
 }

@@ -3,3 +3,14 @@ C:\Users\Alex\Desktop\Projetos\Crud\Bus\bin\Debug\netstandard2.0\Bus.dll
 C:\Users\Alex\Desktop\Projetos\Crud\Bus\obj\Debug\netstandard2.0\Bus.csproj.CoreCompileInputs.cache
 C:\Users\Alex\Desktop\Projetos\Crud\Bus\obj\Debug\netstandard2.0\Bus.AssemblyInfoInputs.cache
 C:\Users\Alex\Desktop\Projetos\Crud\Bus\obj\Debug\netstandard2.0\Bus.AssemblyInfo.cs
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\bin\Debug\netstandard2.0\Bus.pdb
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\obj\Debug\netstandard2.0\Bus.csprojAssemblyReference.cache
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\obj\Debug\netstandard2.0\Bus.csproj.CopyComplete
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\obj\Debug\netstandard2.0\Bus.dll
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\obj\Debug\netstandard2.0\Bus.pdb
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\bin\Debug\netstandard2.0\Infra.dll
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\bin\Debug\netstandard2.0\Service.dll
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\bin\Debug\netstandard2.0\Service.pdb
+C:\Users\Alex\Desktop\Projetos\Crud\Bus\bin\Debug\netstandard2.0\Infra.pdb

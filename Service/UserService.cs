@@ -48,21 +48,12 @@ namespace Service
 
         public Result<User> Save(User user, string author)
         {
-            var scenario = user.Id == 0 ? UserScenario.Create : UserScenario.Update;
-            var validator = new UserValidator(user, scenario);
-            if (validator.Validate())
-            {
-                if (scenario == UserScenario.Create)
-                    _serverContext.InsertRecord(user);
-                else
-                    _serverContext.UpdateRecord(user);
-
-                return new Result<User>(true, ApplicationResource.SaveSuccess, user);
-            }
+            if (user.Id == 0)
+                _serverContext.InsertRecord(user);
             else
-            {
-                return new Result<User>(false, validator.GetErrors());
-            }
+                _serverContext.UpdateRecord(user);
+
+            return new Result<User>(true, "Success", user);
         }
     }
 }

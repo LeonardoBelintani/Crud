@@ -8,6 +8,7 @@
 /Core/obj
 /Infra/obj
 /Service/obj
+/Service/bin
 /Test/obj
 /Service/bin
 /Bus/bin
